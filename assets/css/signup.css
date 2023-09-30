@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(122, 115, 116);
+    margin: 0;
+    padding: 0;
+}
+
+.signupContainer {
+    width: 50%;
+    background-color: rgb(209, 214, 208);
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 16px 6px rgba(0, 17, 7, 0.2);
+}
+
+.inputField {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inputFieldi {
+    width: 70%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0px 0px 2px 1px lightgray;
+    border: 1px solid #1f1d1d;
+}
+
+.btncontainer {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.btn {
+    width: 50%;
+    padding: 12px;
+    color: white;
+    background-color: rgb(53, 101, 235);
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(9, 170, 44);
+}
+
+.login-btn p a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+
+.login-btn p a:hover{
+    color: rgb(4, 112, 53);
+}
+
+.gimg {
+    width: 30px;
+    height: 30px;
+}
+
+.gbtn {
+    background-color: rgb(224, 123, 123);
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+    margin-bottom: 1rem
+}
+
+.glink {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.gbtn:hover{
+    background-color: green;
+}

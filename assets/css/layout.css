@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(122, 115, 116);
+    margin: 0;
+    padding: 0;
+}
+  
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ac61cf;
+    color: #fff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.img {
+    height: 100%;
+    width: 30%;
+}
+
+.logo-image{
+    height: 4.5rem;
+    width: 5rem;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-left: 0.7rem;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-right: 7rem;
+}
+
+.profileName{
+    margin-left: 5rem;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.listItems a{
+    display: inline-block;
+    padding:15px 20px;
+    background-color: #295cca;
+    color: #faf9f9;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-right: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.listItems a:hover{
+    background-color: green;
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 0.8rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.body{
+    margin-top: 100px;
+}

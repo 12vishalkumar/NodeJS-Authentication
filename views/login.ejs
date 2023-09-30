@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <!-- Headder -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/7909/7909818.png" type="image/x-icon">
+        <!-- ***** StyleSheet ***** -->
+        <link rel="stylesheet" href="/css/login.css">
+    </head>
+    <body>
+        <div>
+            <form action="/signin" class="signupContainer" method="post">
+                <div>
+                    <h1 class="signupHeading">Login</h1>
+                </div>
+                    <div class="inputField">
+                        <input class="inputFieldi" type="email" name="email" placeholder='Enter Your Email' required />
+                    </div>
+                    <div class="inputField">
+                        <input class="inputFieldi" type="password" name="password" placeholder='Enter Your Password' required/>
+                    </div>
+                    <div class="btncontainer">
+                        <button class="btn" type="submit">Login</button>
+                    </div>
+                <div class="btncontainer">
+                    <div class="gbtn">
+                        <img class="gimg" src="https://img.icons8.com/color/1x/google-logo.png" alt="" />
+                        <a class="glink" href="/auth/google">Login with google+</a>
+                    </div>
+                </div>
+                <div class="signUp">
+                    <p>Don't have an account? <a href="/">Sign Up</a></p>
+                </div>
+                <div class="resetPassword">
+                    <p><a href="/reset">Reset Password</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
